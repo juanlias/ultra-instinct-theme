@@ -1,0 +1,10 @@
+.git/**
+.vscode/**
+website/**
+docs/**
+**/*.ts
+**/*.map
+tsconfig.json
+vite.config.ts
+.gitignore
+**/.DS_Store
