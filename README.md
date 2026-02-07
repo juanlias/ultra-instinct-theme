@@ -8,9 +8,7 @@
   <a href="https://marketplace.visualstudio.com/items?itemName=JuanLias.ultra-instinct-theme">
     <img src="https://img.shields.io/visual-studio-marketplace/v/JuanLias.ultra-instinct-theme?style=flat-square&label=Version&color=5228c2" alt="Version">
   </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=JuanLias.ultra-instinct-theme">
-    <img src="https://img.shields.io/visual-studio-marketplace/i/JuanLias.ultra-instinct-theme?style=flat-square&label=Installs&color=2878c2" alt="Installs">
-  </a>
+
   <a href="https://github.com/juanlias/ultra-instinct-theme/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-0D9488?style=flat-square&logo=github&logoColor=white" alt="License">
   </a>
