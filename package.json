@@ -4,7 +4,7 @@
   "description": "The ultimate focus-driven theme trilogy. Awaken your coding instinct with 'Sign' (Dark), 'Mastered' (Dark), and 'Mastered' (Light). Featuring 'The Void Protocol' for distraction-free immersion.",
   "icon": "images/icon.png",
   "version": "0.0.1",
-  "publisher": "UltraInstinctTheme",
+  "publisher": "JuanLias",
   "engines": {
     "vscode": "^1.70.0"
   },
