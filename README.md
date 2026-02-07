@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="images/ui-theme-banner.png" alt="Ultra Instinct Theme Logo" width="100%">
+  <img src="https://raw.githubusercontent.com/juanlias/ultra-instinct-theme/master/images/ui-theme-banner.png" alt="Ultra Instinct Theme Logo" width="100%">
 </p>
 
 <h1 align="center">Ultra Instinct Theme</h1>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=UltraInstinctTheme.ultra-instinct-theme">
-    <img src="https://img.shields.io/visual-studio-marketplace/v/UltraInstinctTheme.ultra-instinct-theme?style=flat-square&label=Version&color=5228c2" alt="Version">
+  <a href="https://marketplace.visualstudio.com/items?itemName=JuanLias.ultra-instinct-theme">
+    <img src="https://img.shields.io/visual-studio-marketplace/v/JuanLias.ultra-instinct-theme?style=flat-square&label=Version&color=5228c2" alt="Version">
   </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=UltraInstinctTheme.ultra-instinct-theme">
-    <img src="https://img.shields.io/visual-studio-marketplace/i/UltraInstinctTheme.ultra-instinct-theme?style=flat-square&label=Installs&color=2878c2" alt="Installs">
+  <a href="https://marketplace.visualstudio.com/items?itemName=JuanLias.ultra-instinct-theme">
+    <img src="https://img.shields.io/visual-studio-marketplace/i/JuanLias.ultra-instinct-theme?style=flat-square&label=Installs&color=2878c2" alt="Installs">
   </a>
   <a href="https://github.com/juanlias/ultra-instinct-theme/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-0D9488?style=flat-square&logo=github&logoColor=white" alt="License">
@@ -67,7 +67,7 @@ This trilogy is my personal tool for achieving **Hyperfocus**. Now, it's yours.
 **Or via command line:**
 
 ```bash
-code --install-extension UltraInstinctTheme.ultra-instinct-theme
+code --install-extension JuanLias.ultra-instinct-theme
 ```
 
 ---
@@ -129,5 +129,5 @@ _Product Design Engineer_
 <br>
 
 <p align="center">
-  <img src="images/icon.png" alt="Ultra Instinct Theme Icon" width="100">
+  <img src="https://raw.githubusercontent.com/juanlias/ultra-instinct-theme/master/images/icon.png" alt="Ultra Instinct Theme Icon" width="100">
 </p>
