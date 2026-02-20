@@ -5,10 +5,7 @@
 <h1 align="center">Ultra Instinct Theme</h1>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=JuanLias.ultra-instinct-theme">
-    <img src="https://img.shields.io/visual-studio-marketplace/v/JuanLias.ultra-instinct-theme?style=flat-square&label=Version&color=5228c2" alt="Version">
-  </a>
-
+  <img src="https://img.shields.io/badge/Version-0.1.0-5228c2?style=flat-square" alt="Version">
   <a href="https://github.com/juanlias/ultra-instinct-theme/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-0D9488?style=flat-square&logo=github&logoColor=white" alt="License">
   </a>
@@ -30,6 +27,15 @@ I built **Ultra Instinct** because standard themes were too noisy for my brain. 
 
 I needed a Void. A place where the interface disappears, and only the logic remains.
 This trilogy is my personal tool for achieving **Hyperfocus**. Now, it's yours.
+
+---
+
+## 🚀 New in v0.1.0: "The Premium Upgrade"
+
+- **Premium Terminal**: The integrated terminal now perfectly mirrors your theme's colors.
+- **Neon Active Tabs**: High-saturation text for active tabs makes them pop without distracting backgrounds.
+- **Focus Mode**: Breadcrumbs and File Trees fade out when you're not using them.
+- **Search Glow**: Find specific code instantly with accent-colored borders.
 
 ---
 

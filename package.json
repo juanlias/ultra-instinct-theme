@@ -1,9 +1,9 @@
 {
   "name": "ultra-instinct-theme",
   "displayName": "Ultra Instinct Theme",
-  "description": "The ultimate focus-driven theme trilogy. Awaken your coding instinct with 'Sign' (Dark), 'Mastered' (Dark), and 'Mastered' (Light). Featuring 'The Void Protocol' for distraction-free immersion.",
+  "description": "The ultimate focus-driven theme trilogy. Awaken your coding instinct with 'Sign', 'Mastered', and 'Mastered' Light. Featuring 'The Void Protocol' for distraction-free immersion.",
   "icon": "images/icon.png",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "publisher": "JuanLias",
   "engines": {
     "vscode": "^1.70.0"
@@ -19,7 +19,7 @@
         "path": "./themes/ultra-instinct-color-theme.json"
       },
       {
-        "label": "Ultra Instinct Mastered (Dark)",
+        "label": "Ultra Instinct Mastered",
         "uiTheme": "vs-dark",
         "path": "./themes/ultra-instinct-dark-mastered-color-theme.json"
       },
