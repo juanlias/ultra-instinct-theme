@@ -2,6 +2,12 @@
 
 All notable changes to the "ultra-instinct-theme" extension will be documented in this file.
 
+## [0.1.1]
+
+### Added
+
+- **Notifications & Pop-ups**: Added custom colors for all notification toasts, centers, and icons (info/warning/error) across all three themes, replacing the default gray for a more immersive and integrated appearance.
+
 ## [0.1.0]
 
 ### Added
