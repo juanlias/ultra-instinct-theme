@@ -3,7 +3,7 @@
   "displayName": "Ultra Instinct Theme",
   "description": "The ultimate focus-driven theme trilogy. Awaken your coding instinct with 'Sign', 'Mastered', and 'Mastered' Light. Featuring 'The Void Protocol' for distraction-free immersion.",
   "icon": "images/icon.png",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "JuanLias",
   "engines": {
     "vscode": "^1.70.0"

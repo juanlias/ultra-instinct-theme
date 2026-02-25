@@ -2,6 +2,19 @@
 
 All notable changes to the "ultra-instinct-theme" extension will be documented in this file.
 
+## [0.1.2]
+
+### Added
+
+- **Next-Gen AI Editor Support**: Officially optimized for **Cursor**, **Antigravity**, and **GitHub Copilot Chat**. The AI Chat, Agent Window, and Agent Manager components now use custom panel backgrounds, borders, and avatar colors that seamlessly fit the 'Ultra Instinct' vibe instead of generic fallbacks.
+- **Premium Focus Highlights**: The active code line has been refined. It now combines a subtle translucent background (15% opacity) with a solid, elegant horizontal border (40% opacity) that spans edge-to-edge. This ensures premium code tracking without washing out your text's syntax highlighting.
+- **Advanced Tools UI**: Integrated over 120+ specialized UI color tokens. This provides deep, exhaustive styling for Git diffs, merge conflicts, minimaps, chart visualizations, debug configurations, and extension icons.
+
+### Changed
+
+- **Gutter & Tabs Polish**: Restored the default VS Code behavior for unfocused tab backgrounds and the line number gutter. This ensures the theme correctly adapts to drastic window splitting and eliminates any color bleeding.
+- **Flawless Sync Architecture**: Enforced a strict 1:1 color parity structure (285 color keys, 25 token rules) across all three theme variations (`Light`, `Sign`, `Mastered`). The coding experience is now uniformly solid and bug-free across all versions.
+
 ## [0.1.1]
 
 ### Added
