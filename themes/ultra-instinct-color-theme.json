@@ -447,20 +447,6 @@
     },
     {
       "scope": [
-        "punctuation.section.braces",
-        "punctuation.section.brackets",
-        "meta.brace.curly",
-        "meta.brace.square",
-        "punctuation.section.property-list",
-        "punctuation.definition.block",
-        "punctuation.definition.parameters"
-      ],
-      "settings": {
-        "foreground": "#FF00FF"
-      }
-    },
-    {
-      "scope": [
         "variable.language",
         "variable.language.this",
         "variable.language.self"

@@ -5,7 +5,7 @@
 <h1 align="center">Ultra Instinct Theme</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-0.1.1-5228c2?style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/Version-0.1.3-5228c2?style=flat-square" alt="Version">
   <a href="https://github.com/juanlias/ultra-instinct-theme/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-0D9488?style=flat-square&logo=github&logoColor=white" alt="License">
   </a>

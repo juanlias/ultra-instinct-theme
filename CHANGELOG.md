@@ -2,6 +2,20 @@
 
 All notable changes to the "ultra-instinct-theme" extension will be documented in this file.
 
+## [0.1.3]
+
+### Added
+
+- **Keywords**: Added `keywords` field to `package.json` for improved discoverability on the VS Code Marketplace and Open VSX (tags: dark theme, focus, minimal, purple, neurodivergent, void, distraction-free, blue, light theme, vue, react, hyperfocus).
+
+### Changed
+
+- **Version bump**: Updated version to `0.1.3` in `package.json` and version badge in `README.md`.
+
+### Fixed
+
+- **Sign Theme Cleanup**: Removed a rogue `#FF00FF` (magenta) token rule targeting `punctuation.section.braces` and related scopes from `ultra-instinct-color-theme.json`. This color was inconsistent with the theme palette and caused magenta brackets in certain syntaxes.
+
 ## [0.1.2]
 
 ### Added
