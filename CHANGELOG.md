@@ -2,6 +2,21 @@
 
 All notable changes to the "ultra-instinct-theme" extension will be documented in this file.
 
+## [0.1.4]
+
+### Added
+
+- **Variant Screenshots**: Added preview screenshots for all three variants (Mastered, Sign, Mastered Light) to the README and Marketplace listing.
+- **Marketplace Metadata**: Added `license`, `homepage`, `bugs`, `galleryBanner`, and `pricing` fields to `package.json` for a more complete Marketplace presence.
+- **Extended Keywords**: Expanded keyword list with additional discoverability tags including `hyperfocus`, `flow state`, `accessibility`, `high contrast`, `autism`, `adhd`, `productivity`.
+- **Website**: Launched [ultrainstincttheme.com](https://ultrainstincttheme.com) — official landing page with interactive code preview, variant selector, install guide, and live download counter.
+
+### Changed
+
+- **README Overhaul**: Restructured with cleaner sections, variant comparison screenshots, website and email badges, and improved description.
+- **Engine Requirement**: Bumped minimum VS Code engine version to `^1.75.0`.
+- **Description**: Rewrote the extension description to better communicate the focus-first, neurodivergent-friendly design intent.
+
 ## [0.1.3]
 
 ### Added
