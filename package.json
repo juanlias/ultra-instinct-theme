@@ -1,17 +1,29 @@
 {
   "name": "ultra-instinct-theme",
   "displayName": "Ultra Instinct Theme",
-  "description": "The ultimate focus-driven theme trilogy. Awaken your coding instinct with 'Sign', 'Mastered', and 'Mastered' Light. Featuring 'The Void Protocol' for distraction-free immersion.",
+  "description": "Less interface, more flow. A distraction-free VS Code theme trilogy built to reduce visual entropy and sustain hyperfocus. Designed by a neurodivergent engineer.",
   "icon": "images/icon.png",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "publisher": "JuanLias",
-  "keywords": ["dark theme", "focus", "minimal", "purple", "neurodivergent", "void", "distraction-free", "blue", "light theme", "vue", "react", "hyperfocus"],
+  "license": "MIT",
+  "homepage": "https://ultrainstincttheme.com",
+  "bugs": {
+    "url": "https://github.com/juanlias/ultra-instinct-theme/issues",
+    "email": "hello@ultrainstincttheme.com"
+  },
+  "keywords": ["dark theme", "focus", "minimal", "purple", "neurodivergent", "void", "distraction-free", "blue", "light theme", "hyperfocus", "flow state", "accessibility", "high contrast", "autism", "adhd", "clean", "indigo", "productivity"],
   "engines": {
-    "vscode": "^1.70.0"
+    "vscode": "^1.75.0"
   },
   "categories": [
     "Themes"
   ],
+  "galleryBanner": {
+    "color": "#0d0d20",
+    "theme": "dark"
+  },
+  "markdown": "github",
+  "pricing": "Free",
   "contributes": {
     "themes": [
       {

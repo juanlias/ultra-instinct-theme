@@ -1,63 +1,75 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/juanlias/ultra-instinct-theme/master/images/ui-theme-banner.png" alt="Ultra Instinct Theme Logo" width="100%">
+  <img src="https://raw.githubusercontent.com/juanlias/ultra-instinct-theme/master/images/ui-theme-banner.png" alt="Ultra Instinct Theme Banner" width="100%">
 </p>
 
 <h1 align="center">Ultra Instinct Theme</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-0.1.3-5228c2?style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/Version-0.1.4-5228c2?style=flat-square" alt="Version">
+  <a href="https://ultrainstincttheme.com">
+    <img src="https://img.shields.io/badge/Website-Live-7B42FF?style=flat-square" alt="Website">
+  </a>
   <a href="https://github.com/juanlias/ultra-instinct-theme/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-0D9488?style=flat-square&logo=github&logoColor=white" alt="License">
   </a>
 </p>
 
 <p align="center">
-  A high-contrast, distraction-free theme designed for the <b>Flow State</b>.
+  <b>Less interface, more flow.</b>
   <br>
-  Built to eliminate cognitive noise through "The Void Protocol," allowing your instincts to take over.
+    A high-contrast, distraction-free theme designed for the Flow State. Built to eliminate cognitive noise through "The Void Protocol," allowing your instincts to take over.
+  <br><br>
+  <a href="https://ultrainstincttheme.com" target="_blank">Explore the Official Website →</a>
 </p>
 
 <br>
 
 ## The Origin (Neurodivergent Design)
 
-This isn't just another dark theme.
+I built Ultra Instinct Theme to solve a cognitive friction problem most themes ignore.
 
-I built **Ultra Instinct** because standard themes were too noisy for my brain. As a product designer/developer with Autism and High Potential, I experience code differently. Every unnecessary border, every bright icon, and every jarring contrast break my focus.
+Designed under a principle of sensory engineering: reduce visual entropy until only the logic remains. No unnecessary borders, no aggressive contrasts, no flashy icons breaking your concentration. The interface disappears and the code takes over.
 
-I needed a Void. A place where the interface disappears, and only the logic remains.
-This trilogy is my personal tool for achieving **Hyperfocus**. Now, it's yours.
+Built by a Product Design Engineer with Autism and High Potential, for every mind that works differently.
 
-## Themes
+## Variants
 
-### 1. Ultra Instinct Sign
+### Ultra Instinct Sign
 
-- **Aesthetic:** Unstable, Raw, Intense.
-- **Palette:** Electric Blue & Indigo accents on a Deep Charcoal Void (`#0d1017`).
-- **Use Case:** High-intensity debugging and exploring new codebases.
+- **Mood:** Raw, intense, electric.
+- **Palette:** Electric blue & indigo on deep charcoal void (`#0d1017`).
+- **Best for:** High-intensity debugging and exploring unfamiliar codebases.
 
-### 2. Ultra Instinct Mastered
+![Ultra Instinct Sign](https://raw.githubusercontent.com/juanlias/ultra-instinct-theme/master/images/ultra-instinct-theme--mastered-sign.png)
 
-- **Aesthetic:** Divine, Calm, Perfected.
-- **Palette:** Royal Purple & Silver accents on a balanced Dark Void (`#141118`).
-- **Use Case:** My daily driver. Balanced and serene.
+### Ultra Instinct Mastered
 
-### 3. Ultra Instinct Mastered Light
+- **Mood:** Calm, divine, perfected.
+- **Palette:** Royal purple & silver on balanced dark void (`#141118`).
+- **Best for:** Daily driver. Long sessions, deep focus.
 
-- **Aesthetic:** Clean, Sharp, Absolute.
-- **Palette:** Divine Silver backgrounds with Aura Purple accents.
-- **Use Case:** Well-lit environments, presentations, and recording.
+![Ultra Instinct Mastered](https://raw.githubusercontent.com/juanlias/ultra-instinct-theme/master/images/ultra-instinct-theme--mastered.png)
+
+### Ultra Instinct Mastered Light
+
+- **Mood:** Sharp, clean, absolute.
+- **Palette:** Silver backgrounds with aura purple accents.
+- **Best for:** Well-lit environments, presentations, recordings.
+
+![Ultra Instinct Mastered Light](https://raw.githubusercontent.com/juanlias/ultra-instinct-theme/master/images/ultra-instinct-theme--mastered-light.png)
 
 ---
 
 ## Installation
 
-1.  Open **Extensions** sidebar in VS Code.
-2.  Search for `Ultra Instinct Theme`.
-3.  Click **Install**.
-4.  Select your state: `Sign` or `Mastered`.
+**Via VS Code Extensions panel:**
 
-**Or via command line:**
+1. Open Extensions (`Ctrl+Shift+X`)
+2. Search `Ultra Instinct Theme`
+3. Click Install
+4. Select your variant: `Sign`, `Mastered`, or `Mastered Light`
+
+**Via command line:**
 
 ```bash
 code --install-extension JuanLias.ultra-instinct-theme
@@ -65,9 +77,9 @@ code --install-extension JuanLias.ultra-instinct-theme
 
 ---
 
-## The Void Protocol (Configuration)
+## Recommended Configuration
 
-To achieve the intended "clean" aesthetic and prevent "Rainbow Brackets" from breaking the immersion, add this to your `settings.json`:
+Add this to your `settings.json` to get the intended experience:
 
 ```json
 {
@@ -76,40 +88,42 @@ To achieve the intended "clean" aesthetic and prevent "Rainbow Brackets" from br
   "editor.renderLineHighlight": "gutter",
   "editor.renderWhitespace": "all",
 
-  // Critical: Disable native rainbow brackets
+  // Critical: disable native rainbow brackets
   "editor.bracketPairColorization.enabled": false,
   "editor.guides.bracketPairs": false,
 
-  // Recommended Typography
+  // Recommended typography
   "editor.fontFamily": "'Cascadia Code NF', 'Fira Code', monospace",
   "editor.fontLigatures": true
 }
 ```
 
+> Disabling bracket pair colorization is critical — native rainbow brackets override the theme's carefully tuned punctuation colors.
+
 ---
 
-## Accessibility & Standards
+## Accessibility
 
-I believe high-performance coding shouldn't come at the cost of sensory overload or eye strain.
-
-- **Sensory Friendly:** Specifically tuned to reduce visual overstimulation.
-- **WCAG 2.1 AA Compliant:** Contrast ratios exceed 4.5:1 for all text elements.
-- **Reduced Blue Light:** The "Sign" theme uses a specific charcoal base (`#0d1017`) designed to minimize retinal fatigue during night sessions.
+- **WCAG 2.1 AA compliant** contrast ratios exceed 4.5:1 across all text elements.
+- **Sensory-tuned** specifically designed to reduce visual overstimulation.
+- **Neurodivergent first** built for ADHD, Autism, High Potential, and every mind that processes differently.
+- **Low blue light base** Sign's charcoal (`#0d1017`) minimizes retinal fatigue during night sessions.
 
 ---
 
 ## Author
 
-**[Juan Lias](https://github.com/juanlias)**
-<br>
-_Product Design Engineer_
+**[Juan Lias](https://github.com/juanlias)** Product Design Engineer
 
 <p>
   <a href="https://github.com/juanlias">
     <img src="https://img.shields.io/badge/GitHub-Juan%20Lias-181717?style=flat-square&logo=github" alt="GitHub">
   </a>
   <a href="https://juanlias.com">
-    <img src="https://img.shields.io/badge/Portfolio-Product%20Design-5228c2?style=flat-square&logo=figma&logoColor=white" alt="Portfolio">
+    <img src="https://img.shields.io/badge/Portfolio-juanlias.com-5228c2?style=flat-square" alt="Portfolio">
+  </a>
+  <a href="mailto:hello@ultrainstincttheme.com">
+    <img src="https://img.shields.io/badge/Email-hello@ultrainstincttheme.com-0D9488?style=flat-square" alt="Email">
   </a>
 </p>
 
@@ -122,5 +136,5 @@ _Product Design Engineer_
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/juanlias/ultra-instinct-theme/master/images/icon.png" alt="Ultra Instinct Theme Icon" width="100">
+  <img src="https://raw.githubusercontent.com/juanlias/ultra-instinct-theme/master/images/icon.png" alt="Ultra Instinct Theme Icon" width="80">
 </p>
