@@ -5,7 +5,7 @@
 <h1 align="center">Ultra Instinct Theme</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-0.1.5-5228c2?style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/Version-0.1.6-5228c2?style=flat-square" alt="Version">
   <a href="https://ultrainstincttheme.com">
     <img src="https://img.shields.io/badge/Website-Live-7B42FF?style=flat-square" alt="Website">
   </a>
