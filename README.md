@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=JuanLias.ultra-instinct-theme">
-    <img src="https://img.shields.io/visual-studio-marketplace/i/JuanLias.ultra-instinct-theme?style=for-the-badge&label=VS%20Marketplace&color=5228c2&logo=visualstudiocode&logoColor=white" alt="VS Marketplace Installs">
+    <img src="https://vsmarketplacebadges.dev/installs-short/JuanLias.ultra-instinct-theme.png?style=for-the-badge&label=VS%20Marketplace&color=5228c2&logo=visualstudiocode&logoColor=white&prefix=%2B" alt="VS Marketplace Installs">
   </a>
   &nbsp;
   <a href="https://open-vsx.org/extension/JuanLias/ultra-instinct-theme">
