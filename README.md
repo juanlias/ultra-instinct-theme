@@ -5,12 +5,22 @@
 <h1 align="center">Ultra Instinct Theme</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-0.1.4-5228c2?style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/Version-0.1.5-5228c2?style=flat-square" alt="Version">
   <a href="https://ultrainstincttheme.com">
     <img src="https://img.shields.io/badge/Website-Live-7B42FF?style=flat-square" alt="Website">
   </a>
   <a href="https://github.com/juanlias/ultra-instinct-theme/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-0D9488?style=flat-square&logo=github&logoColor=white" alt="License">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=JuanLias.ultra-instinct-theme">
+    <img src="https://img.shields.io/visual-studio-marketplace/i/JuanLias.ultra-instinct-theme?style=for-the-badge&label=VS%20Marketplace&color=5228c2&logo=visualstudiocode&logoColor=white" alt="VS Marketplace Installs">
+  </a>
+  &nbsp;
+  <a href="https://open-vsx.org/extension/JuanLias/ultra-instinct-theme">
+    <img src="https://img.shields.io/open-vsx/dt/JuanLias/ultra-instinct-theme?style=for-the-badge&label=Open%20VSX&color=7B42FF&logo=vscodium&logoColor=white" alt="Open VSX Downloads">
   </a>
 </p>
 
