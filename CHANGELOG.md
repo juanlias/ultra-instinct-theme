@@ -2,6 +2,38 @@
 
 All notable changes to the "ultra-instinct-theme" extension will be documented in this file.
 
+## [0.1.5]
+
+### Added
+
+- **Editor Gutter Git Decorations**: All three themes now have explicit `editorGutter.addedBackground`, `modifiedBackground`, and `deletedBackground` colors — green/accent/red bars on changed lines are fully themed.
+- **Overview Ruler Annotations**: Added 10 `editorOverviewRuler.*` keys (errors, warnings, info, git changes, find matches, word/selection highlights, bracket match) for all variants.
+- **Semantic Token Colors**: Introduced a full `semanticTokenColors` section to all three themes, enabling modern semantic highlighting for TypeScript, Rust, Python, Go and more (namespace, type, class, interface, struct, enum, typeParameter, parameter, variable, property, enumMember, function, method, macro, decorator, regexp, operator, selfKeyword).
+- **New Language Token Scopes**: Extended `tokenColors` with targeted rules for:
+  - **Operators** — generic and language-specific (`assignment`, `arithmetic`, `comparison`, `logical`, `spread`, `accessor`)
+  - **Regex** — `string.regexp`, quantifiers, character classes, escape sequences
+  - **YAML** — keys, values, booleans, nulls, timestamps, punctuation
+  - **Shell / Bash** — builtins, control flow, variable definitions
+  - **Markdown** — H1–H6 headings differentiated by brightness, list bullets, blockquotes
+  - **Python** — logical keyword operators (`and`, `or`, `not`, `in`, `is`), builtin functions
+  - **TypeScript / JavaScript** — constants, type annotations, builtin types
+  - **Rust** — storage types, attributes (`#[...]`), macros, lifetimes, metavariables
+- **Testing UI Colors**: Added full `testing.*` color set (passed/failed/queued/skipped icons, peek border, error decorations) for all variants.
+- **Command Center**: Added `commandCenter.*` keys (VS Code 1.69+) for themed command palette bar.
+- **Toolbar & Sash**: Added `toolbar.hoverBackground`, `toolbar.activeBackground`, `sash.hoverBorder`.
+- **Additional Git Decorations**: Added `gitDecoration.addedResourceForeground`, `renamedResourceForeground`, `stageModifiedResourceForeground`, `stageDeletedResourceForeground`.
+- **Diff Editor Line Backgrounds**: Added `diffEditor.insertedLineBackground`, `removedLineBackground`, `unchangedCodeBackground` for full-line diff visibility.
+- **Find Match Fill**: Added `editor.findMatchBackground` and `editor.findRangeHighlightBackground` (previously only borders were set).
+- **Terminal Selection**: Added `terminal.selectionBackground` and `terminal.inactiveSelectionBackground`.
+- **Code Lens & Whitespace**: Added `editorCodeLens.foreground` and `editorWhitespace.foreground`.
+
+### Fixed
+
+- **Mastered — `breadcrumb.background`**: Was incorrectly set to `#0d1017` (Sign's background color). Corrected to `#141118`.
+- **Mastered — Peek View Match Highlights**: `peekViewEditor.matchHighlightBackground` and `peekViewResult.matchHighlightBackground` were set to `#141118` (same as background, invisible). Corrected to `#7B42FF40`.
+- **Mastered — `statusBarItem.prominentBackground`**: Was set to `#141118` (invisible against dark bg). Corrected to `#7B42FF`.
+- **Mastered + Light — Duplicate Token Rule**: Removed a redundant partial brace/bracket rule that was a strict subset of the full punctuation rule already present later in the array.
+
 ## [0.1.4]
 
 ### Added
