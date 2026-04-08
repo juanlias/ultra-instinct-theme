@@ -2,6 +2,12 @@
 
 All notable changes to the "ultra-instinct-theme" extension will be documented in this file.
 
+## [0.1.6]
+
+### Fixed
+
+- **README Badge**: Switched VS Marketplace installs badge from shields.io (rate-limited) to `vsmarketplacebadges.dev` for reliable display on Marketplace and Open VSX listings.
+
 ## [0.1.5]
 
 ### Added
