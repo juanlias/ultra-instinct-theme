@@ -1,7 +1,7 @@
 {
   "name": "ultra-instinct-theme",
   "displayName": "Ultra Instinct Theme",
-  "description": "443-color-key code editor theme trilogy — built for VS Code, Cursor, Windsurf & every fork. 3 variants with native AI editor support. Distraction-free by design.",
+  "description": "Sensory-first theme. 443 color keys, 3 variants — less noise, more focus.",
   "icon": "images/icon.png",
   "version": "1.0.0",
   "publisher": "JuanLias",
@@ -11,7 +11,7 @@
     "url": "https://github.com/juanlias/ultra-instinct-theme/issues",
     "email": "hello@ultrainstincttheme.com"
   },
-  "keywords": ["dark theme", "focus", "minimal", "purple", "neurodivergent", "void", "distraction-free", "blue", "light theme", "hyperfocus", "flow state", "accessibility", "high contrast", "autism", "adhd", "clean", "indigo", "productivity", "cursor", "ai", "inline chat", "copilot", "windsurf", "sticky scroll", "notebook", "443 keys", "bracket colors", "semantic", "agent"],
+  "keywords": ["dark theme", "focus", "minimal", "purple", "neurodivergent", "void", "distraction-free", "blue", "light theme", "hyperfocus", "flow state", "Sensory-first", "accessibility", "high contrast", "autism", "adhd", "clean", "indigo", "productivity", "cursor", "ai", "inline chat", "copilot", "windsurf", "sticky scroll", "notebook", "443 keys", "bracket colors", "semantic", "agent"],
   "engines": {
     "vscode": "^1.90.0"
   },

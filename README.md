@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <b>Less interface, more flow.</b>
+  <b>Sensory-first theme. less noise, more focus</b>
   <br>
   A 443-color-key theme trilogy for VS Code, Cursor, Windsurf & every fork. Built to eliminate cognitive noise — the interface disappears and your instincts take over.
   <br><br>

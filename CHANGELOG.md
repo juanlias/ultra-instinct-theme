@@ -2,6 +2,12 @@
 
 All notable changes to the "ultra-instinct-theme" extension will be documented in this file.
 
+## [1.0.1]
+
+### Changed
+
+- Updated extension description and README copy to reflect sensory-first design messaging
+
 ## [1.0.0]
 
 ### Added
