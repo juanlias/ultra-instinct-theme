@@ -2,6 +2,60 @@
 
 All notable changes to the "ultra-instinct-theme" extension will be documented in this file.
 
+## [1.0.0]
+
+### Added
+
+- **78 new color keys** (330 → 443 across all three variants), bringing exhaustive coverage to every corner of the UI.
+- **Cursor-native AI editor support:**
+  - `inlineChat.*` (background, border, foreground) — styled inline chat popover
+  - `inlineChatInput.*` (background, border, foreground, placeholder) — composer input
+  - `interactive.*` (active/inactive code background + border) — AI-modified code regions
+  - `editor.inlineSuggest.*` (background, foreground) — Tab completions
+  - `editorGhostText.background` / `editorGhostText.border` — ghost text regions
+  - `chat.requestForeground` / `chat.editedFileForeground` — chat messages & file edit badges
+- **`editor.lineHighlightBackground` & `editor.lineHighlightBorder`** — active line highlight (previously mentioned in v0.1.2 changelog but was never actually present in the theme files). Subtle accent glow with a solid border.
+- **Sticky scroll:** `editorStickyScroll.background`, `.border`, `.shadow`, `editorStickyScrollHover.background`
+- **Notebooks (8 new keys):** `notebook.editorBackground`, `.focusedEditorBorder`, `.outputContainerBackground`, `.symbolHighlightBackground`, `.selectedCellBackground`, and status icons (error, running, success)
+- **Welcome page (8 keys):** `welcomePage.background`, `.tileBackground`, `.tileHoverBackground`, `.tileBorder`, progress and button colors
+- **Extension buttons (7 keys):** `extensionButton.*` (prominent, standard, hover, separator)
+- **Keybinding labels (4 keys):** `keybindingLabel.*` (background, foreground, border, bottomBorder)
+- **Tab hover (3 keys):** `tab.hoverBackground`, `tab.hoverForeground`, `tab.unfocusedHoverBackground`
+- **Editor quality-of-life:** `editor.linkedEditingBackground`, `editorSuggestWidget.selectedForeground`, `editorSuggestWidgetStatus.foreground`, `editorHoverWidget.foreground` / `statusBarBackground`, `simpleFindWidget.sashBorder`
+- **Panel & drag-drop:** `panelSection.border` / `dropBackground`, `editorGroup.dropBackground`, `editorGroup.dropIntoPrompt*` (foreground, background, border)
+- **Diff editor borders:** `diffEditor.insertedTextBorder`, `removedTextBorder`, `move.border`, `moveActive.border`
+- **Toolbar completion:** `toolbar.inactiveBackground`, `toolbar.hoverOutline`
+- **Text blocks for chat/panel:** `textBlockQuote.*`, `textPreformat.*`, `textSeparator.foreground`
+- **Walkthrough:** `walkThrough.embeddedEditorBackground`
+- **Terminal cursor:** `terminalCursor.foreground`, `terminalCursor.background`, `terminal.border`
+- **Debug console (5 keys):** `debugConsole.errorForeground`, `.infoForeground`, `.sourceForeground`, `.warningForeground`, `debugConsoleInputIcon.foreground`
+- **Inline chat (5 keys):** `inlineChat.shadow`, `inlineChatInput.focusBorder`, `inlineChatInputResult.background`, `.border`, `.foreground`
+- **Editor (5 keys):** `editor.foldBackground`, `editor.symbolHighlightBackground`, `editor.onTypeRenameBackground`, `editor.lineNumber.dimmedForeground`, `editor.dragAndDropBackground`
+- **Dropdown (4 keys):** `dropdown.background`, `.border`, `.foreground`, `.listBackground`
+- **Diff unchanged regions:** `diffEditor.unchangedRegionBackground`, `diffEditor.unchangedRegionForeground`
+- **Banners (3 keys):** `banner.background`, `banner.foreground`, `banner.iconForeground`
+- **Notebook borders (5 keys):** `notebook.inactiveFocusedCellBorder`, `.inactiveSelectedCellBorder`, `.selectedCellBorder`, `.outputContainerBorder`, `.rowHoverBackground`
+- **Other:** `selection.background`, `ports.iconRunningProcessForeground`
+- **Agent progress:** `progressBar.background` — styled with theme accent for Cursor Agent operations
+
+### Changed
+
+- **33 symbol icons** (`symbolIcon.*`) now differentiated semantically by type — class purple, function white, variable cyan, keyword bold, string blue, number accent, etc. — visible in breadcrumbs, outline, and the Cursor symbol navigator.
+- **Bracket highlights** (`editorBracketHighlight.foreground1-6`) now use 6 distinct colors with a gradient from the theme accent — bracket nesting is visually distinguishable without relying on VS Code's built-in bracket pair colorization.
+- **Bracket pair guides** (`editorBracketPairGuide.activeBackground1-6`) now use progressive opacities (6% → 30%) instead of identical values.
+- **Ghost text contrast** improved (`#606080` → `#8080A0` for dark themes, `#64748B` → `#94A3B8` for light).
+- **Overview ruler background** no longer identical to sidebar background — annotations are now distinguishable against the sidebar.
+- **Recommended configuration updated** — bracket pair colorization is now optional. The theme's own 6-level bracket highlights work with or without it.
+
+### Fixed
+
+- **`peekViewResult.lineForeground`** in Mastered variant: was `#DCE0E5AA` (8-character hex RGBA). Normalized to `#8080A0` (6-character hex) for consistency across all variants.
+- **Light variant `tokenColors` ordering:** `punctuation.definition.string` was at index 49 (end of array) instead of position ~7 like the dark variants. Moved to correct position to ensure consistent scope resolution.
+
+### Removed
+
+(none)
+
 ## [0.1.6]
 
 ### Fixed

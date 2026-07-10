@@ -1,9 +1,9 @@
 {
   "name": "ultra-instinct-theme",
   "displayName": "Ultra Instinct Theme",
-  "description": "Less interface, more flow. A distraction-free VS Code theme trilogy built to reduce visual entropy and sustain hyperfocus. Designed by a neurodivergent engineer.",
+  "description": "443-color-key code editor theme trilogy — built for VS Code, Cursor, Windsurf & every fork. 3 variants with native AI editor support. Distraction-free by design.",
   "icon": "images/icon.png",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "publisher": "JuanLias",
   "license": "MIT",
   "homepage": "https://ultrainstincttheme.com",
@@ -11,15 +11,15 @@
     "url": "https://github.com/juanlias/ultra-instinct-theme/issues",
     "email": "hello@ultrainstincttheme.com"
   },
-  "keywords": ["dark theme", "focus", "minimal", "purple", "neurodivergent", "void", "distraction-free", "blue", "light theme", "hyperfocus", "flow state", "accessibility", "high contrast", "autism", "adhd", "clean", "indigo", "productivity"],
+  "keywords": ["dark theme", "focus", "minimal", "purple", "neurodivergent", "void", "distraction-free", "blue", "light theme", "hyperfocus", "flow state", "accessibility", "high contrast", "autism", "adhd", "clean", "indigo", "productivity", "cursor", "ai", "inline chat", "copilot", "windsurf", "sticky scroll", "notebook", "443 keys", "bracket colors", "semantic", "agent"],
   "engines": {
-    "vscode": "^1.75.0"
+    "vscode": "^1.90.0"
   },
   "categories": [
     "Themes"
   ],
   "galleryBanner": {
-    "color": "#0d0d20",
+    "color": "#141118",
     "theme": "dark"
   },
   "markdown": "github",
