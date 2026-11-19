@@ -1,0 +1,23 @@
+{
+  "name": "Ultra Instinct Sign",
+  "background": "#0d1017",
+  "foreground": "#DCE0E5",
+  "cursorColor": "#00E5FF",
+  "selectionBackground": "#161E42",
+  "black": "#171923",
+  "red": "#E58B9B",
+  "green": "#8BC9A5",
+  "yellow": "#D8BA83",
+  "blue": "#8AAFE0",
+  "purple": "#B29BDB",
+  "cyan": "#83C7CF",
+  "white": "#C5CAD4",
+  "brightBlack": "#8891A3",
+  "brightRed": "#F0A4AF",
+  "brightGreen": "#A6D9B8",
+  "brightYellow": "#E6CCA0",
+  "brightBlue": "#A7C5EB",
+  "brightPurple": "#C6B4E7",
+  "brightCyan": "#A0DBDF",
+  "brightWhite": "#E8ECF2"
+}

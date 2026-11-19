@@ -1,0 +1,413 @@
+{
+  "formatVersion": 1,
+  "name": "Ultra Instinct",
+  "sourceVersion": "1.0.2",
+  "license": "MIT",
+  "variants": {
+    "sign": {
+      "name": "Ultra Instinct Sign",
+      "appearance": "dark",
+      "source": "themes/ultra-instinct-color-theme.json",
+      "ui": {
+        "editorBackground": "#0d1017",
+        "editorForeground": "#b0b5c0",
+        "surface": "#0A0D12",
+        "secondaryText": "#9295AD",
+        "border": "#3D5AFE20",
+        "accent": "#3D5AFE",
+        "focus": "#82B1FF",
+        "cursor": "#00E5FF",
+        "selectionOverlay": "#448AFF40",
+        "error": "#F08B99",
+        "warning": "#D8BA83",
+        "info": "#8AAFE0",
+        "terminalBackground": "#0d1017",
+        "terminalForeground": "#DCE0E5",
+        "terminalCursor": "#00E5FF",
+        "terminalSelectionOverlay": "#3D5AFE30",
+        "selectionBackground": "#1B2F51",
+        "terminalSelectionBackground": "#161E42"
+      },
+      "syntax": {
+        "comment": {
+          "foreground": "#7878A0",
+          "bold": false,
+          "italic": true
+        },
+        "keyword": {
+          "foreground": "#448AFF",
+          "bold": true,
+          "italic": false
+        },
+        "function": {
+          "foreground": "#DCE0E5",
+          "bold": true,
+          "italic": false
+        },
+        "variable": {
+          "foreground": "#32bfcc",
+          "bold": false,
+          "italic": false
+        },
+        "parameter": {
+          "foreground": "#90A0FF",
+          "bold": false,
+          "italic": false
+        },
+        "string": {
+          "foreground": "#E0E0FF",
+          "bold": false,
+          "italic": false
+        },
+        "stringQuote": {
+          "foreground": "#808DA8",
+          "bold": false,
+          "italic": false
+        },
+        "number": {
+          "foreground": "#2979FF",
+          "bold": true,
+          "italic": false
+        },
+        "constant": {
+          "foreground": "#2979FF",
+          "bold": true,
+          "italic": false
+        },
+        "self": {
+          "foreground": "#BB88FF",
+          "bold": false,
+          "italic": true
+        },
+        "regexp": {
+          "foreground": "#00EAFF",
+          "bold": false,
+          "italic": false
+        },
+        "type": {
+          "foreground": "#8C9EFF",
+          "bold": false,
+          "italic": false
+        },
+        "punctuation": {
+          "foreground": "#808DA8",
+          "bold": false,
+          "italic": false
+        },
+        "operator": {
+          "foreground": "#808DA8",
+          "bold": false,
+          "italic": false
+        },
+        "decorator": {
+          "foreground": "#A78BFA",
+          "bold": false,
+          "italic": false
+        },
+        "tag": {
+          "foreground": "#536DFE",
+          "bold": false,
+          "italic": false
+        },
+        "attribute": {
+          "foreground": "#00EAFF",
+          "bold": false,
+          "italic": true
+        },
+        "property": {
+          "foreground": "#00EAFF",
+          "bold": false,
+          "italic": false
+        }
+      },
+      "ansi": {
+        "black": "#171923",
+        "red": "#E58B9B",
+        "green": "#8BC9A5",
+        "yellow": "#D8BA83",
+        "blue": "#8AAFE0",
+        "magenta": "#B29BDB",
+        "cyan": "#83C7CF",
+        "white": "#C5CAD4",
+        "brightBlack": "#8891A3",
+        "brightRed": "#F0A4AF",
+        "brightGreen": "#A6D9B8",
+        "brightYellow": "#E6CCA0",
+        "brightBlue": "#A7C5EB",
+        "brightMagenta": "#C6B4E7",
+        "brightCyan": "#A0DBDF",
+        "brightWhite": "#E8ECF2"
+      }
+    },
+    "mastered": {
+      "name": "Ultra Instinct Mastered",
+      "appearance": "dark",
+      "source": "themes/ultra-instinct-dark-mastered-color-theme.json",
+      "ui": {
+        "editorBackground": "#141118",
+        "editorForeground": "#b0b5c0",
+        "surface": "#0F0D14",
+        "secondaryText": "#9295AD",
+        "border": "#7B42FF20",
+        "accent": "#7B42FF",
+        "focus": "#A78BFA",
+        "cursor": "#A78BFA",
+        "selectionOverlay": "#A78BFA40",
+        "error": "#F08B99",
+        "warning": "#D8BA83",
+        "info": "#8AAFE0",
+        "terminalBackground": "#141118",
+        "terminalForeground": "#DCE0E5",
+        "terminalCursor": "#A78BFA",
+        "terminalSelectionOverlay": "#7B42FF30",
+        "selectionBackground": "#393051",
+        "terminalSelectionBackground": "#271A43"
+      },
+      "syntax": {
+        "comment": {
+          "foreground": "#8080A8",
+          "bold": false,
+          "italic": true
+        },
+        "keyword": {
+          "foreground": "#BB88FF",
+          "bold": true,
+          "italic": false
+        },
+        "function": {
+          "foreground": "#DCE0E5",
+          "bold": true,
+          "italic": false
+        },
+        "variable": {
+          "foreground": "#60A5FA",
+          "bold": false,
+          "italic": false
+        },
+        "parameter": {
+          "foreground": "#D0A0FF",
+          "bold": false,
+          "italic": false
+        },
+        "string": {
+          "foreground": "#F0F5FF",
+          "bold": false,
+          "italic": false
+        },
+        "stringQuote": {
+          "foreground": "#85809A",
+          "bold": false,
+          "italic": false
+        },
+        "number": {
+          "foreground": "#A78BFA",
+          "bold": true,
+          "italic": false
+        },
+        "constant": {
+          "foreground": "#A78BFA",
+          "bold": true,
+          "italic": false
+        },
+        "self": {
+          "foreground": "#BB88FF",
+          "bold": false,
+          "italic": true
+        },
+        "regexp": {
+          "foreground": "#D0A0FF",
+          "bold": false,
+          "italic": false
+        },
+        "type": {
+          "foreground": "#A78BFA",
+          "bold": false,
+          "italic": false
+        },
+        "punctuation": {
+          "foreground": "#85809A",
+          "bold": false,
+          "italic": false
+        },
+        "operator": {
+          "foreground": "#85809A",
+          "bold": false,
+          "italic": false
+        },
+        "decorator": {
+          "foreground": "#A78BFA",
+          "bold": false,
+          "italic": false
+        },
+        "tag": {
+          "foreground": "#A78BFA",
+          "bold": false,
+          "italic": false
+        },
+        "attribute": {
+          "foreground": "#D0A0FF",
+          "bold": false,
+          "italic": true
+        },
+        "property": {
+          "foreground": "#D0A0FF",
+          "bold": false,
+          "italic": false
+        }
+      },
+      "ansi": {
+        "black": "#171923",
+        "red": "#E58B9B",
+        "green": "#8BC9A5",
+        "yellow": "#D8BA83",
+        "blue": "#8AAFE0",
+        "magenta": "#B29BDB",
+        "cyan": "#83C7CF",
+        "white": "#C5CAD4",
+        "brightBlack": "#8891A3",
+        "brightRed": "#F0A4AF",
+        "brightGreen": "#A6D9B8",
+        "brightYellow": "#E6CCA0",
+        "brightBlue": "#A7C5EB",
+        "brightMagenta": "#C6B4E7",
+        "brightCyan": "#A0DBDF",
+        "brightWhite": "#E8ECF2"
+      }
+    },
+    "light": {
+      "name": "Ultra Instinct Mastered (Light)",
+      "appearance": "light",
+      "source": "themes/ultra-instinct-light-color-theme.json",
+      "ui": {
+        "editorBackground": "#F8FAFC",
+        "editorForeground": "#334155",
+        "surface": "#F1F5F9",
+        "secondaryText": "#58667A",
+        "border": "#E2E8F0",
+        "accent": "#9333EA",
+        "focus": "#7E22CE",
+        "cursor": "#9333EA",
+        "selectionOverlay": "#9333EA40",
+        "error": "#B4233D",
+        "warning": "#855600",
+        "info": "#285EA8",
+        "terminalBackground": "#F8FAFC",
+        "terminalForeground": "#334155",
+        "terminalCursor": "#9333EA",
+        "terminalSelectionOverlay": "#9333EA30",
+        "selectionBackground": "#DFC8F7",
+        "terminalSelectionBackground": "#E5D5F9"
+      },
+      "syntax": {
+        "comment": {
+          "foreground": "#64748B",
+          "bold": false,
+          "italic": true
+        },
+        "keyword": {
+          "foreground": "#7E22CE",
+          "bold": true,
+          "italic": false
+        },
+        "function": {
+          "foreground": "#334155",
+          "bold": true,
+          "italic": false
+        },
+        "variable": {
+          "foreground": "#0F766E",
+          "bold": false,
+          "italic": false
+        },
+        "parameter": {
+          "foreground": "#0F766E",
+          "bold": false,
+          "italic": false
+        },
+        "string": {
+          "foreground": "#0369A1",
+          "bold": false,
+          "italic": false
+        },
+        "stringQuote": {
+          "foreground": "#64748B",
+          "bold": false,
+          "italic": false
+        },
+        "number": {
+          "foreground": "#7E22CE",
+          "bold": true,
+          "italic": false
+        },
+        "constant": {
+          "foreground": "#7E22CE",
+          "bold": true,
+          "italic": false
+        },
+        "self": {
+          "foreground": "#7E22CE",
+          "bold": false,
+          "italic": true
+        },
+        "regexp": {
+          "foreground": "#0F766E",
+          "bold": false,
+          "italic": false
+        },
+        "type": {
+          "foreground": "#334155",
+          "bold": false,
+          "italic": false
+        },
+        "punctuation": {
+          "foreground": "#64748B",
+          "bold": false,
+          "italic": false
+        },
+        "operator": {
+          "foreground": "#64748B",
+          "bold": false,
+          "italic": false
+        },
+        "decorator": {
+          "foreground": "#4C1D95",
+          "bold": false,
+          "italic": false
+        },
+        "tag": {
+          "foreground": "#7E22CE",
+          "bold": false,
+          "italic": false
+        },
+        "attribute": {
+          "foreground": "#0F766E",
+          "bold": false,
+          "italic": true
+        },
+        "property": {
+          "foreground": "#0F766E",
+          "bold": false,
+          "italic": false
+        }
+      },
+      "ansi": {
+        "black": "#172033",
+        "red": "#B4233D",
+        "green": "#216744",
+        "yellow": "#855600",
+        "blue": "#285EA8",
+        "magenta": "#783CA3",
+        "cyan": "#176875",
+        "white": "#58667A",
+        "brightBlack": "#475569",
+        "brightRed": "#A6213A",
+        "brightGreen": "#1C7047",
+        "brightYellow": "#805300",
+        "brightBlue": "#2454A0",
+        "brightMagenta": "#70339D",
+        "brightCyan": "#106475",
+        "brightWhite": "#475569"
+      }
+    }
+  }
+}

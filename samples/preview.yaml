@@ -1,0 +1,12 @@
+# Inspect keys, colons, quoted values, booleans, and anchors.
+defaults: &defaults
+  enabled: true
+  limit: 12
+  optional: null
+  updated: 2026-11-19
+tasks:
+  - <<: *defaults
+    title: "Review theme"
+    description: |
+      Search for title to compare current and secondary matches.
+      Select title to compare selection and occurrence highlights.

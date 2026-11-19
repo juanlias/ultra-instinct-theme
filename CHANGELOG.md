@@ -2,6 +2,34 @@
 
 All notable changes to the "ultra-instinct-theme" extension will be documented in this file.
 
+## [1.0.2]
+
+### Changed
+
+- Improved string quotes, operators, YAML separators, Shell variable sigils, Markdown markers, and semantic labels across the three variants. All explicit syntax colors now meet 4.5:1 contrast against the base editor background.
+- Lightened Mastered's violet syntax accents and set both editor and terminal cursors to violet `#A78BFA`. Interface branding accents remain unchanged.
+- Preserved bold emphasis for function names and methods, builtins, numbers, constants, YAML literal values, and CSS classes to support quick code scanning. Decorators and Rust attributes use normal weight; keywords and headings retain their existing emphasis.
+- Aligned readonly semantic colors with TextMate constants and explicitly reset parameter emphasis. Removed broad function-call and TypeScript annotation scopes so surrounding expressions retain their own token colors.
+- Distinguished selection, inactive selection, occurrences, current Find matches, and secondary Find matches with separate opacity levels.
+- Unified added/modified/deleted Git colors across the explorer, gutter, overview ruler, and diff additions/deletions; increased gutter and ruler visibility.
+- Extended the recommended active-line highlight to both code and the line-number gutter (`editor.renderLineHighlight: "all"`), enabled it for this workspace, and strengthened the accent border and active line number in all variants.
+- Made focused tabs, lists, inputs, and panel titles easier to locate while keeping secondary surfaces quiet.
+- Unified diagnostic colors across editor squiggles, Problems, notifications, the overview ruler, minimap, and debug output; hints use a secondary text color.
+- Refined completion and hover surfaces, selected suggestion matches, active parameter hints, and inlay text contrast.
+- Separated pending inline suggestions from accepted code with a muted foreground and transparent backing; active AI edit regions retain stronger borders than inactive regions.
+- Softened ANSI colors in dark variants and darkened ANSI text in Light for legibility, keeping the standard red/green/yellow/blue/magenta/cyan meanings.
+- Replaced the six bracket colors with restrained, readable palettes and made active guides stronger than inactive guides.
+- Split README settings into a minimal starting point and optional typography/motion preferences.
+- Reworked the README around visual variant previews, installation, the personal design story, and everyday coding benefits. Moved technical coverage notes to the local review guide and clarified accessibility and editor-support claims.
+
+### Added
+
+- New README variant previews captured from VS Code using the same TypeScript example, typography, and active line. A shared frame identifies each variant without recoloring or rescaling the captured code.
+- New horizontal README header with the existing aura logo, project name, sensory-first message, and a real Mastered editor excerpt.
+- Added explicit secondary Find backgrounds, keyboard focus outlines, inactive-group tab text, Problems icons, input-validation states, focused completion highlights, active parameter highlighting, editor group boundaries, and minimap info markers. UI coverage is now 468 keys per theme.
+- Dependency-free `npm run validate` for JSON parsing, color formats, theme parity, syntax and helper-surface contrast, terminal foregrounds, bracket readability, focus indicators, diagnostic consistency, selection/search states, and Git color consistency.
+- Local review guide and TSX, Python, JSON, YAML, Shell, Markdown, and CSS visual samples, including intentional diagnostics, deep bracket nesting, and an ANSI terminal chart.
+
 ## [1.0.1]
 
 ### Changed

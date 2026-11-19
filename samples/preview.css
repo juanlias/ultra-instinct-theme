@@ -1,0 +1,15 @@
+/* Inspect selectors, custom properties, units, and functions. */
+:root {
+  --accent: #a78bfa;
+}
+
+#tasks .task[aria-selected="true"] {
+  color: var(--accent);
+  padding: 0.75rem 12px;
+  border: 1px solid currentColor;
+  width: calc(100% - 24px);
+}
+
+@media (min-width: 768px) {
+  .task:hover { opacity: 0.85; }
+}

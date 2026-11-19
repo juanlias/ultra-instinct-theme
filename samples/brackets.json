@@ -1,0 +1,13 @@
+{
+  "level1": {
+    "level2": [
+      {
+        "level4": {
+          "level5": [
+            { "level7": ["Move the cursor between these brackets"] }
+          ]
+        }
+      }
+    ]
+  }
+}

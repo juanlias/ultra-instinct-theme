@@ -1,0 +1,9 @@
+{
+  "title": "Theme preview",
+  "enabled": true,
+  "limit": 12,
+  "ratio": 0.75,
+  "optional": null,
+  "escaped": "Task: \"Review theme\"\nNext task",
+  "tasks": [{ "id": "task-1", "done": false }]
+}
